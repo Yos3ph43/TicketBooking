@@ -1,0 +1,23 @@
+.seat {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+.seat:hover {
+  background-color: #bb2d3b;
+  color: #fff;
+}
+
+.seat.booked {
+  background-color: #146c43;
+  border-color: #146c43;
+  color: white;
+}
+
+.seat.booking {
+  background-color: #bb2d3b;
+  border-color: #bb2d3b;
+  color: #fff;
+}
